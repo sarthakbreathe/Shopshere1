@@ -1,0 +1,42 @@
+/* src/Styles/BuyNow.css */
+.buy-now-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  }
+  .buy-now-page h1{
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .payment-success {
+    text-align: center;
+  }
+  
+  .cart-items table {
+    width: 100vh;
+  }
+  
+  .cart-items th, .cart-items td {
+    border: 1px solid #ddd;
+    padding: 12px;
+  }
+  
+  .cart-items th {
+    background-color: #f2f2f2;
+  }
+  
+  .buy-button {
+    background-color: orange; /* Your preferred color */
+    color: white;
+    padding: 10px 20px;
+    margin: 18px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buy-button:hover {
+    background-color: darkorange;
+  }
+  

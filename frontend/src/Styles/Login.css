@@ -1,0 +1,87 @@
+    /* Main section and form container */
+  body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionlogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main-heading {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .loginform {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Label styles */
+  .loginlabel {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  /* Input field styles */
+  .logininput {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #f9fafb;
+    transition: border-color 0.3s ease;
+  }
+  
+  .logininput:focus {
+    border-color: #3b82f6;
+    outline: none;
+  }  
+  button:hover {
+    background-color: #2563eb;
+  }
+  
+  button svg {
+    margin-left: 10px;
+    font-size: 1.2rem;
+  }
+  
+  a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #3b82f6;
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Forgot and registration buttons container */
+  .logforgotbtn {
+    /* background-color: #2563eb; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logforgotbtn button{
+    background-color: #2563eb;
+  
+}
+  
