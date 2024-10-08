@@ -16,7 +16,7 @@ export const HomePage = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch(`https://shopshereeee.vercel.app`, {
+        const response = await fetch(`https://shopshere1.vercel.app/app.js`, {
           method: 'GET',
           headers: {
             "Content-Type": "application/json",
