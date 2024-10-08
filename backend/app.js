@@ -30,7 +30,9 @@ router.get('/login', loginUser);
 // app.use('/api/admin', userRoutes);
 // app.use('/api/single', userRoutes);
 
-
+app.get('/', (req, res) => {
+  res.send('Hello, world!'); // Simplified response
+});
 app.listen(PORT, () => {
     console.log(`Server running on Port=${PORT}`);
 });
