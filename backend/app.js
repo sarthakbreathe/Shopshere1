@@ -33,6 +33,6 @@ router.get('/login', loginUser);
 app.get('/', (req, res) => {
   res.send('Hello, world!'); // Simplified response
 });
-app.listen(PORT, () => {
-    console.log(`Server running on Port=${PORT}`);
-});
+// app.listen(PORT, () => {
+//     console.log(`Server running on Port=${PORT}`);
+// });
