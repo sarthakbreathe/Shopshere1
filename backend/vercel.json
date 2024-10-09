@@ -1,12 +1,51 @@
 {
-  "version":2,
-  "builds":[
-    {"src":"*.js","use":"@vercel/node"}
-  ],
-  "routes":[
+  "version": 2,
+  "builds": [
     {
-      "src":"/(.*)",
-      "dest":"/"
+      "src": "api/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/register",
+      "dest": "/api/index.js"
+    },
+    {
+      "src": "/api/users",
+      "dest": "/api/index.js"
+    },
+    {
+      "src": "/api/getproduct",
+      "dest": "/api/index.js"
+    },
+    {
+      "src": "/api/getproducttable",
+      "dest": "/api/index.js"
+    },
+    {
+      "src": "/api/login",
+      "dest": "/api/index.js"
+    },
+    {
+      "src": "/api/checkauth",
+      "dest": "/api/index.js"
+    },
+    {
+      "src": "/api/getprofile/(.*)",
+      "dest": "/api/index.js"
+    },
+    {
+      "src": "/api/getproductdata/(.*)",
+      "dest": "/api/index.js"
+    },
+    {
+      "src": "/api/products",
+      "dest": "/api/index.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.js"
     }
   ]
 }
